@@ -224,7 +224,7 @@
     [super viewWillLayoutSubviews];
     
     self.imageCropView.frame = self.view.bounds;
-    self.toolbar.frame = CGRectMake(0, CGRectGetHeight(self.view.frame) - 54, self.view.bounds.width, 54);
+    self.toolbar.frame = CGRectMake(0, CGRectGetHeight(self.view.frame) - 54, self.view.bounds.size.width, 54);
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
